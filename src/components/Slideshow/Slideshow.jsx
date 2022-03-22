@@ -23,7 +23,7 @@ const Slideshow = () => {
     ]
 
     return (
-        <Carousel className='main-carousel' autoPlay={false}>
+        <Carousel className='main-carousel'>
             {
                 items.map( (item, i) => <Item key={i} item={item} /> )
             }

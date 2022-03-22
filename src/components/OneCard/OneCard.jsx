@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const OneCard = () => (
   <div className="one-card--container">
+    <div className="bcg"></div>
     <img src={require('./img/capoeira3.jpg')} alt="" />
 
     <div className="one-card__content">

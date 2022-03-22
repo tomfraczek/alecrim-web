@@ -1,7 +1,7 @@
-import TwoCards from "../../component/TwoCards/TwoCards";
-import Slideshow from "../../component/Slideshow/Slideshow";
-import OneCard from '../../component/OneCard/OneCard'
-import Devider from "../../component/Devider";
+import TwoCards from "../../components/TwoCards/TwoCards";
+import Slideshow from "../../components/Slideshow/Slideshow";
+import OneCard from '../../components/OneCard/OneCard'
+import Devider from "../../components/Devider";
 
 const HomePage = () => {
   return(

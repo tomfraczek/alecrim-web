@@ -7,9 +7,10 @@ import Academy from './pages/Academy';
 import Capoeira from './pages/Capoeira';
 import Contact from './pages/Contact';
 import Trainings from './pages/Trainings';
-import Navbar from "./component/Navbar";
+import Navbar from "./components/Navbar";
 import History from "./pages/Capoeira/History";
 import Music from "./pages/Capoeira/Music";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path='/trainings' element={<Trainings />} />
           <Route path='/calendar' element={<Trainings />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
